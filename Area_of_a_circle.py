@@ -1,4 +1,4 @@
-n=float(input())
-area=3.14*n*n
-limiited_float=round(area,2)
-print(limiited_float)
+r=int(input())
+a=3.14*r*r
+b="{:.2f}".format(a)
+print(b)
